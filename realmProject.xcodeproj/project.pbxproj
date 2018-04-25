@@ -16,6 +16,11 @@
 		49D256B0208F935100D4C275 /* realmProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D256AF208F935100D4C275 /* realmProjectUITests.swift */; };
 		49D256BD208F95B400D4C275 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D256BE208F95B400D4C275 /* Realm.framework */; };
 		49D256BF208F95B900D4C275 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D256C0208F95B900D4C275 /* RealmSwift.framework */; };
+		A44F2C3A2090E55A00E1526C /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F2C392090E55A00E1526C /* Book.swift */; };
+		A44F2C3C2090E56F00E1526C /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F2C3B2090E56F00E1526C /* Friend.swift */; };
+		A44F2C3E2090E58000E1526C /* Publishing house.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F2C3D2090E58000E1526C /* Publishing house.swift */; };
+		A44F2C402090E58A00E1526C /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F2C3F2090E58A00E1526C /* Genre.swift */; };
+		A44F2C422090E59800E1526C /* Borrowing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F2C412090E59800E1526C /* Borrowing.swift */; };
 		C6E1E7FC8FB401FB39767A9E /* Pods_realmProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7E4722EC1CFE7B6AAF1B41A /* Pods_realmProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +58,11 @@
 		49D256BE208F95B400D4C275 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D256C0208F95B900D4C275 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BAF6A8D23FAAE04DD377830 /* Pods-realmProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realmProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-realmProject/Pods-realmProject.debug.xcconfig"; sourceTree = "<group>"; };
+		A44F2C392090E55A00E1526C /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		A44F2C3B2090E56F00E1526C /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		A44F2C3D2090E58000E1526C /* Publishing house.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publishing house.swift"; sourceTree = "<group>"; };
+		A44F2C3F2090E58A00E1526C /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		A44F2C412090E59800E1526C /* Borrowing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Borrowing.swift; sourceTree = "<group>"; };
 		C7E4722EC1CFE7B6AAF1B41A /* Pods_realmProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_realmProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0C846AD804D96808F633EB /* Pods-realmProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realmProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-realmProject/Pods-realmProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -167,6 +177,11 @@
 		A44F2C38208FBA4400E1526C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A44F2C392090E55A00E1526C /* Book.swift */,
+				A44F2C3B2090E56F00E1526C /* Friend.swift */,
+				A44F2C3D2090E58000E1526C /* Publishing house.swift */,
+				A44F2C3F2090E58A00E1526C /* Genre.swift */,
+				A44F2C412090E59800E1526C /* Borrowing.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -360,6 +375,11 @@
 			files = (
 				49D25692208F935100D4C275 /* ViewController.swift in Sources */,
 				49D25690208F935100D4C275 /* AppDelegate.swift in Sources */,
+				A44F2C3A2090E55A00E1526C /* Book.swift in Sources */,
+				A44F2C402090E58A00E1526C /* Genre.swift in Sources */,
+				A44F2C3C2090E56F00E1526C /* Friend.swift in Sources */,
+				A44F2C422090E59800E1526C /* Borrowing.swift in Sources */,
+				A44F2C3E2090E58000E1526C /* Publishing house.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
