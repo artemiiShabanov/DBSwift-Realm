@@ -20,16 +20,6 @@ class PublishingHouse: Object {
 
 func nextHouseID() -> Int {
     let realm = try! Realm()
-    
-    
-    let books = realm.objects(Book.self)
-    let filteredBooks = realm.objects(Book.self).filter("pubYear > 2010")
-    
-    
-    
-    print(books)
-    print(filteredBooks)
-    
     return (realm.objects(PublishingHouse.self).max(ofProperty: "id") as Int? ?? 0) + 1
 }
 
