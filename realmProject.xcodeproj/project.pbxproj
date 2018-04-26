@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		49D25690208F935100D4C275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D2568F208F935100D4C275 /* AppDelegate.swift */; };
-		49D25692208F935100D4C275 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D25691208F935100D4C275 /* ViewController.swift */; };
 		49D25695208F935100D4C275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D25693208F935100D4C275 /* Main.storyboard */; };
 		49D25697208F935100D4C275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D25696208F935100D4C275 /* Assets.xcassets */; };
 		49D2569A208F935100D4C275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D25698208F935100D4C275 /* LaunchScreen.storyboard */; };
@@ -16,6 +15,14 @@
 		49D256B0208F935100D4C275 /* realmProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D256AF208F935100D4C275 /* realmProjectUITests.swift */; };
 		49D256BD208F95B400D4C275 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D256BE208F95B400D4C275 /* Realm.framework */; };
 		49D256BF208F95B900D4C275 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D256C0208F95B900D4C275 /* RealmSwift.framework */; };
+		49EB19E720925072008A8CA4 /* GenresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EB19E620925072008A8CA4 /* GenresViewController.swift */; };
+		49EB19E920925290008A8CA4 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EB19E820925290008A8CA4 /* FriendsViewController.swift */; };
+		49EB19EB209252C6008A8CA4 /* BooksViewCintroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EB19EA209252C6008A8CA4 /* BooksViewCintroller.swift */; };
+		49EB19ED209252D7008A8CA4 /* PublishingHousesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EB19EC209252D7008A8CA4 /* PublishingHousesViewController.swift */; };
+		49EB19EF209253AC008A8CA4 /* BookInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EB19EE209253AC008A8CA4 /* BookInfoViewController.swift */; };
+		49EB19F1209253D6008A8CA4 /* BookEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EB19F0209253D6008A8CA4 /* BookEditViewController.swift */; };
+		49EB19F320925403008A8CA4 /* FriendInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EB19F220925403008A8CA4 /* FriendInfoViewController.swift */; };
+		49EB19F520925412008A8CA4 /* FriendEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EB19F420925412008A8CA4 /* FriendEditViewController.swift */; };
 		A44F2C3A2090E55A00E1526C /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F2C392090E55A00E1526C /* Book.swift */; };
 		A44F2C3C2090E56F00E1526C /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F2C3B2090E56F00E1526C /* Friend.swift */; };
 		A44F2C3E2090E58000E1526C /* Publishing house.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F2C3D2090E58000E1526C /* Publishing house.swift */; };
@@ -44,7 +51,6 @@
 /* Begin PBXFileReference section */
 		49D2568C208F935100D4C275 /* realmProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realmProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D2568F208F935100D4C275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49D25691208F935100D4C275 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		49D25694208F935100D4C275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49D25696208F935100D4C275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49D25699208F935100D4C275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +63,14 @@
 		49D256B1208F935100D4C275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49D256BE208F95B400D4C275 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D256C0208F95B900D4C275 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49EB19E620925072008A8CA4 /* GenresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenresViewController.swift; sourceTree = "<group>"; };
+		49EB19E820925290008A8CA4 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		49EB19EA209252C6008A8CA4 /* BooksViewCintroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewCintroller.swift; sourceTree = "<group>"; };
+		49EB19EC209252D7008A8CA4 /* PublishingHousesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishingHousesViewController.swift; sourceTree = "<group>"; };
+		49EB19EE209253AC008A8CA4 /* BookInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookInfoViewController.swift; sourceTree = "<group>"; };
+		49EB19F0209253D6008A8CA4 /* BookEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookEditViewController.swift; sourceTree = "<group>"; };
+		49EB19F220925403008A8CA4 /* FriendInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendInfoViewController.swift; sourceTree = "<group>"; };
+		49EB19F420925412008A8CA4 /* FriendEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendEditViewController.swift; sourceTree = "<group>"; };
 		6BAF6A8D23FAAE04DD377830 /* Pods-realmProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realmProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-realmProject/Pods-realmProject.debug.xcconfig"; sourceTree = "<group>"; };
 		A44F2C392090E55A00E1526C /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		A44F2C3B2090E56F00E1526C /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
@@ -169,7 +183,14 @@
 		A44F2C37208FBA3E00E1526C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				49D25691208F935100D4C275 /* ViewController.swift */,
+				49EB19E620925072008A8CA4 /* GenresViewController.swift */,
+				49EB19E820925290008A8CA4 /* FriendsViewController.swift */,
+				49EB19EA209252C6008A8CA4 /* BooksViewCintroller.swift */,
+				49EB19EC209252D7008A8CA4 /* PublishingHousesViewController.swift */,
+				49EB19EE209253AC008A8CA4 /* BookInfoViewController.swift */,
+				49EB19F0209253D6008A8CA4 /* BookEditViewController.swift */,
+				49EB19F220925403008A8CA4 /* FriendInfoViewController.swift */,
+				49EB19F420925412008A8CA4 /* FriendEditViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -373,8 +394,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49D25692208F935100D4C275 /* ViewController.swift in Sources */,
+				49EB19F1209253D6008A8CA4 /* BookEditViewController.swift in Sources */,
+				49EB19E720925072008A8CA4 /* GenresViewController.swift in Sources */,
+				49EB19EF209253AC008A8CA4 /* BookInfoViewController.swift in Sources */,
+				49EB19E920925290008A8CA4 /* FriendsViewController.swift in Sources */,
+				49EB19F520925412008A8CA4 /* FriendEditViewController.swift in Sources */,
+				49EB19F320925403008A8CA4 /* FriendInfoViewController.swift in Sources */,
+				49EB19ED209252D7008A8CA4 /* PublishingHousesViewController.swift in Sources */,
 				49D25690208F935100D4C275 /* AppDelegate.swift in Sources */,
+				49EB19EB209252C6008A8CA4 /* BooksViewCintroller.swift in Sources */,
 				A44F2C3A2090E55A00E1526C /* Book.swift in Sources */,
 				A44F2C402090E58A00E1526C /* Genre.swift in Sources */,
 				A44F2C3C2090E56F00E1526C /* Friend.swift in Sources */,
