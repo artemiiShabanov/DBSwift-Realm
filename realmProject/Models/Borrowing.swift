@@ -16,6 +16,6 @@ class Borrowing: Object {
     
     @objc dynamic var isLost = false
     @objc dynamic var isDamaged = false
-    @objc dynamic var returnDate = NSDate()
+    @objc dynamic var returnDate: NSDate? = nil
     @objc dynamic var comment: String? = nil
 }

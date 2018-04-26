@@ -14,6 +14,7 @@ class Book: Object {
     @objc dynamic var name = ""
     @objc dynamic var pubYear = 2000
     @objc dynamic var picAuthor: String? = nil
+    @objc dynamic var translator: String? = nil
     @objc dynamic var author = ""
     @objc dynamic var comment: String? = nil
     @objc dynamic var pubHouse: PublishingHouse? = nil
