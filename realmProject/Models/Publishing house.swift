@@ -19,7 +19,6 @@ class PublishingHouse: Object {
 }
 
 func nextHouseID() -> Int {
-    let realm = try! Realm()
     return (realm.objects(PublishingHouse.self).max(ofProperty: "id") as Int? ?? 0) + 1
 }
 

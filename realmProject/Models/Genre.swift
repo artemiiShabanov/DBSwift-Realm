@@ -21,6 +21,5 @@ class Genre: Object {
 }
 
 func nextGenreID() -> Int {
-    let realm = try! Realm()
     return (realm.objects(Genre.self).max(ofProperty: "id") as Int? ?? 0) + 1
 }

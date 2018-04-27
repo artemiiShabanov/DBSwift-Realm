@@ -23,6 +23,5 @@ class Friend: Object {
 }
 
 func nextFriendID() -> Int {
-    let realm = try! Realm()
     return (realm.objects(Friend.self).max(ofProperty: "id") as Int? ?? 0) + 1
 }

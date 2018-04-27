@@ -26,6 +26,5 @@ class Book: Object {
 }
 
 func nextBookID() -> Int {
-    let realm = try! Realm()
     return (realm.objects(Book.self).max(ofProperty: "id") as Int? ?? 0) + 1
 }
